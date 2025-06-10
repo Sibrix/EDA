@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ServidorQuirofano
+comment0.text=\ Interfaz\ ServidorDeQuirofano\:\ \r\n\ \ especifica\ la\ capacidad\ de\ servicio\ de\ un\ servidor\ de\ quirofano\ \r\n\ \ y\ los\ metodos\ que\ este\ ha\ de\ implementar\ **independientemente**\ \ \ \r\n\ \ de\ si\ usa\ una\ Cola\ o\ una\ Cola\ de\ Prioridad\ \r\n\ \ para\ gestionar\ los\ pacientes\ en\ espera.\r\n\ \ \r\n\ \ @author\ \ Profesores\ EDA\r\n\ \ @version\ Septiembre\ 2023\r\n
+comment1.params=
+comment1.target=boolean\ hayPacientes()
+comment1.text=\ Comprueba\ si\ hay\ algun\ Paciente\ en\ espera\ en\ un\ ServidorDeQuirofano.\r\n\ \ @return\ \ \ boolean\r\n
+numComments=2

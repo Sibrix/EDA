@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ServidorColaFIFO
+comment0.text=\ Clase\ ServidorCola\:\ \r\n\ \ implementa\ un\ ServidorDeQuirofano\ \r\n\ \ que\ usa\ un\ modelo\ FIFO\ (Cola)\ \r\n\ \ para\ gestionar\ los\ pacientes\ en\ espera.\r\n\ \ \r\n\ \ @author\ \ Profesores\ EDA\r\n\ \ @version\ Septiembre\ 2023\r\n
+comment1.params=
+comment1.target=ServidorColaFIFO()
+comment1.text=Crea\ un\ servidor\ vacio
+comment2.params=
+comment2.target=boolean\ hayPacientes()
+comment2.text=\ Comprueba\ si\ hay\ algun\ Paciente\ en\ espera\ en\ un\ ServidorQuirofano.\r\n\ \ @return\ \ \ boolean\r\n
+numComments=3
