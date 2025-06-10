@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BuscadorBD
+comment0.text=\r\n\ BuscadorBD\:\ clase\ que\ representa\ un\ Buscador\ eficiente,\ \r\n\ i.e.\ con\ un\ Indice,\ de\ una\ Biblioteca\ Digital\ (BD).\ \r\n\ Por\ ello,\ su\ funcionalidad\ basica\ es...\r\n\ 1.-\ INDEXAR\:\ crear\ el\ Indice\ de\ la\ biblioteca,\ representado\ mediante\ \ \r\n\ \ \ \ \ un\ Map\ implementado\ mediante\ una\ Tabla\ Hash\ Enlazada.\r\n\ 2.-\ BUSCAR\:\ recuperar\ del\ Indice\ de\ la\ biblioteca\ la\ informacion\ que\ \r\n\ \ \ \ \ exista\ sobre\ una\ palabra\ dada\ (Posting\ List)\ en\ ella.\r\n\ \r\n\ @author\ \ Profesores\ EDA\ \r\n\ @version\ Septiembre\ 2023\r\n
+comment1.params=b
+comment1.target=void\ setVerb(boolean)
+comment2.params=
+comment2.target=BuscadorBD()
+comment2.text=\ Crea\ el\ Buscador\ de\ la\ BD\ que\ forman\ los\ libros\ de\ listaLibros.\r\n\ \ Basicamente,\ supone\ crear\ el\ Indice\ de\ la\ BD\ con,\ como\ maximo,\ maxTerminos.\ \r\n\ \ Si\ no\ encuentra\ (el\ fichero\ .txt\ de)\ un\ libroLanza\ FileNotFoundException.\r\n
+comment3.params=fichLibro
+comment3.target=boolean\ indexarLibro(java.lang.String)
+comment3.text=\ Devuelve\ true\ tras\ actualizar\ el\ Buscador\ de\ una\ BD\ \r\n\ \ con\ los\ terminos\ que\ contiene\ fichLibro\ (fichero\ .txt).\ \r\n\ \ Basicamente,\ supone\ actualizar\ el\ Indice\ de\ la\ biblioteca\ \r\n\ \ con\ los\ terminos\ de\ fichlibro.\r\n\ \ El\ metodo\ devuelve\ false\ si\ fichlibro\ no\ existe.\r\n
+comment4.params=p
+comment4.target=java.lang.String\ buscar(java.lang.String)
+comment4.text=\r\n\ Devuelve\ en\ formato\ texto\ (String)\ el\ resultado\ de\ la\ busqueda\ del\ termino\r\n\ asociado\ a\ una\ palabra,\ p,\ en\ el\ Indice\ de\ una\ BD\ (frecuencia\ de\ aparicion\ del\ \r\n\ termino\ y,\ en\ su\ caso,\ el\ listado\ que\ contiene\ los\ titulos\ y\ lineas\ de\ los\r\n\ libros\ de\ la\ biblioteca\ en\ los\ que\ aparece,\ i.e.\ su\ Posting\ List).\r\n
+comment5.params=n
+comment5.target=librerias.estructurasDeDatos.modelos.ListaConPI\ terminosNveces(int)
+comment5.text=\ Devuelve\ una\ ListaConPI\ con\ aquellos\ terminos\ del\ Indice\ de\ una\ BD\ que\ \r\n\ \ aparecen\ n\ veces\ en\ sus\ libros,\ o\ null\ si\ no\ existe\ ninguno.\r\n
+comment6.params=
+comment6.target=librerias.estructurasDeDatos.modelos.ListaConPI\ hapax()
+comment6.text=\ Devuelve\ una\ ListaConPI\ con\ aquellos\ terminos\ del\ Indice\ de\ una\ BD\ que\ \r\n\ \ aparecen\ solo\ una\ vez\ en\ sus\ libros,\ i.e.\ los\ llamados\ "hapax\ legomena"\ \r\n\ \ de\ la\ BD,\ o\ null\ si\ no\ existe\ ninguno.\r\n\ \ PISTA\:\ Implementar\ mediante\ invocacion\ al\ metodo\ terminosNveces\r\n
+comment7.params=
+comment7.target=librerias.estructurasDeDatos.modelos.Map\ contadores()
+comment8.params=
+comment8.target=void\ testContadores()
+numComments=9
