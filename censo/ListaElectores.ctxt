@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ListaElectores
+comment0.text=\r\n\ ListaElectores\:\ representa\ una\ lista\ de\ habitantes,\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ registrados\ en\ el\ censo,\ y\ por\ ello,\ electores\r\n\ \r\n\ @author\ \ Profesores\ EDA\ \r\n\ @version\ Septiembre\ 2023\r\n
+comment1.params=
+comment1.target=librerias.estructurasDeDatos.modelos.ListaConPI\ getCenso()
+comment1.text=\r\n\ M\u00E9todos\ consultores\ de\ atributos\r\n
+comment2.params=
+comment2.target=int\ getTalla()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Devuelve\ el\ String\ que\ representa\ una\ ListaElectores\ \r\n\ \r\n\ @return\ el\ String\ con\ la\ ListaElectores\ en\ el\ formato\ texto\ dado.\ \r\n
+comment4.params=orden\ n
+comment4.target=ListaElectores(boolean,\ int)
+comment4.text=\r\n\ Crea\ una\ ListaElectores...\r\n\ \r\n\ @param\ orden\ Un\ boolean\ que\ indica\ si\ el\ censo,\ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ debe\ estar\ ordenada\ ascendentemente\ (true)\ o\ no\ (false).\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ @param\ n\ \ \ \ \ Un\ int\ que\ indica\ la\ talla,\ n\u00FAmero\ de\ elementos,\ de\ la\ lista\ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n
+comment5.params=h
+comment5.target=int\ indice(Habitante)
+comment5.text=\r\n\ Devuelve\ el\ \u00EDndice\ o\ posicion\ del\ Habitante\ h\ en\ una\ ListaElectores,\ \r\n\ o\ -1\ si\ h\ no\ forma\ parte\ de\ la\ lista.\ \r\n\ \r\n\ @param\ h\ un\ Habitante\r\n\ @return\ \ el\ \u00EDndice\ de\ h\ en\ un\ censo,\ un\ valor\ int\r\n\ \ \ \ \ \ \ \ \ \ 0\ o\ positivo\ si\ h\ esta\ en\ el\ censo\ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ o\ -1\ en\ caso\ contrario\r\n
+comment6.params=cp
+comment6.target=int\ borrarCensoCP(int)
+comment7.params=
+comment7.target=void\ testBorrarCensoCP()
+numComments=8
