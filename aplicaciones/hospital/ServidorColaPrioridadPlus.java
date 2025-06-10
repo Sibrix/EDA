@@ -49,6 +49,7 @@ public class ServidorColaPrioridadPlus extends ServidorColaPrioridad implements 
         while(i < pacientes.length) {
             if(i % 2 == 0) this.insertarEnEspera(pacientes[i]);
             else s.insertarEnEspera(pacientes[i]);
+            i++;
         }
     }
 }
